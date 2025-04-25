@@ -1,7 +1,5 @@
-# LNGCF
-This is the comprehensive introduction for our method:
-
->Jiayan Xiang, Wanjun Chen, Bowen Liang, Zihao Liu, Guosheng Kang*. Interactive Web API Recommendation for Mashup Development based on Light Neural Graph Collaborative Filtering.
+This repository is the Python implementation for the following paper:
+>Jiayan Xiang, Wanjun Chen, Yang Wang, Bowen Liang, Zihao Liu, Guosheng Kang*. Interactive Web API Recommendation for Mashup Development based on Light Neural Graph Collaborative Filtering. International Conference on Computer Supported Cooperative Work in Design. IEEE Computer Society, pp. 1926-1931, 2023.
 
 ## Introduction
 To improve both the optimality and scalability of Web API recommendation, we propose a Light Neural Graph Collaborative Filtering based Web API recommendation approach, named LNGCF. Specifically, LNGCF learns user and item embeddings by linearly propagating them on the user-item interaction graph, and uses the weighted summation of the embeddings learned at all layers as the final embedding. Such simple, linear, and neat model is much easier to implement and train. 
